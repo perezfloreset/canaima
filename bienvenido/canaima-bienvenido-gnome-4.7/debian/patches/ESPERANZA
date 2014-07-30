@@ -1,0 +1,72 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ canaima-bienvenido-gnome (4.7) stable; urgency=low
+ .
+   * [fb7eebf] Cambiando escudo de la img venezuela del arcerca
+Author: Carlos Espinoza <carlosarmikhael@gmail.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- canaima-bienvenido-gnome-4.7.orig/gui/data/shell/03.html
++++ canaima-bienvenido-gnome-4.7/gui/data/shell/03.html
+@@ -2,11 +2,11 @@
+     <div style="display: block;" id="welcome">
+         <div style="left: 20px; top: 30px; display: block; width: 720px; height: 549px;" id="welcome-screen" class="selected-window">	
+ 	      <div class="welcome-header">
+-                  <h3>¿Cómo veo mis archivos de sonido y video ?</h3>
++                  <h3>¿Cómo veo mis archivos de sonido y video?</h3>
+              </div><!-- welcome-header -->
+              <div class="answer-screen" >
+                    <div id="answer">
+-                     <p> En Canaima con un simple doble clic puedes reproducir archivos de música con <a href="[exec]rhythmbox">Rhythmbox</a> y de Vídeo con <a href="[exec]totem">totem</a> 
++                     <p> En CANAIMA con un simple doble clic puedes reproducir archivos de música con <a href="[exec]rhythmbox">Rhythmbox</a> y de Vídeo con <a href="[exec]totem">totem</a> 
+ 
+ <p>Además viene con <a href="[exec]brasero ">brasero</a> para grabar cd o dvd de datos  y <a href="[exec]gnome-sound-recorder">gnome-sound-recorder</a> es una sencilla aplicación para grabar y reproducir diferentes archivos de sonido.</p>
+                   <div id="ballWrapper" style="left: 569px; top: 150px;">
+--- canaima-bienvenido-gnome-4.7.orig/gui/data/shell/01.html
++++ canaima-bienvenido-gnome-4.7/gui/data/shell/01.html
+@@ -2,7 +2,7 @@
+     <div style="display: block;" id="welcome">
+         <div style="left: 20px; top: 30px; display: block; width: 720px; height: 549px;" id="welcome-screen" class="selected-window">	
+ 	      <div class="welcome-header">
+-                  <h1>¡Bienvenido a Canaima 4.0!</h1>
++                  <h1>¡Bienvenido a FUNDACITE</h1>
+              </div><!-- welcome-header -->
+              <div class="answer-screen" >
+                    <div id="answer">
+@@ -17,7 +17,7 @@
+       </td>
+       <td valign="top" width="20%" class="titulo">
+ 	   <a href='javascript:MostrarOficina()' >
+-		<div>Oficina</div><br/>
++		<div>Oficina (CONTIENE HERRAMIENTAS BASICAS PARA EL TRABAJO DE DOCUMENTOS)</div><br/>
+ 		     <img id="myofi" name="myofi" src="/usr/share/icons/Gnamon/apps/32/ooo-template.png" /></a>
+     </td>
+     <td valign="top" width="20%" class="titulo">
+--- canaima-bienvenido-gnome-4.7.orig/gui/data/shell/02.html
++++ canaima-bienvenido-gnome-4.7/gui/data/shell/02.html
+@@ -2,7 +2,7 @@
+     <div style="display: block;" id="welcome">
+         <div style="left: 20px; top: 30px; display: block; width: 720px; height: 549px;" id="welcome-screen" class="selected-window">	
+ 	      <div class="welcome-header">
+-                  <h1>Aplicaciones</h1>
++                  <h1>Aplicaciones BASICAS</h1>
+              </div><!-- welcome-header -->
+              <div class="answer-screen" >
+                    <div id="answer">
